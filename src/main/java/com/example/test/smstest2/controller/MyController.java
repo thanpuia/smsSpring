@@ -25,6 +25,10 @@ public class MyController {
 	 */
 	private static void getEmployees()
 	{
+		
+		String message ="Locality" + " Landmark"+" Material " + " Quantity" + "Name:" + " Phone"+"Zonal Officer Contact" + "Zonal Officer Name";
+		
+		
 	    final String uri = "https://instantalerts.co/api/web/send?apikey=6n7h4wv5yte7t87qxp4vmrfh96tu0el7&"
 	    		+ "sender=SEDEMO&to=7810911046&message=Hi%2C+this+is+a+test+oyessss";
 
